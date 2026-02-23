@@ -370,20 +370,30 @@ figure {
   position: relative;
   text-align: center;
 }
+
 .chart span {
   position: absolute;
   top: 50%;
-  left: 0;
-  margin-top: -30px;
-  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 75%;
+  text-align: center;
+
+  line-height: 1.2;
+  font-size: 14px;
+  word-break: break-word;
 }
+
 .chart span strong {
   display: block;
+  font-weight: 600;
 }
+
 .chart canvas {
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
 }
 
 #fh5co-footer {
